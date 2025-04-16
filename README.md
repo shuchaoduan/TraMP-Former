@@ -13,7 +13,7 @@ We introduce Trajectory-guided Motion Perception Transformer (TraMP-Former), a n
 
 1: [PFED5 dataset](https://github.com/shuchaoduan/QAFE-Net)
 
-2: [Toronto NeuroFace](https://slp.utoronto.ca/faculty/yana-yunusova/speech-production-lab/datasets/) dataset. 
+2: [Toronto NeuroFace dataset](https://slp.utoronto.ca/faculty/yana-yunusova/speech-production-lab/datasets/). 
 
 
 ## Citations
@@ -31,7 +31,8 @@ If you find our work useful in your research, please consider giving it a star �
 
 ```
 
-To be updated...
+## Acknowledgement
+We gratefully acknowledge the contribution of the Parkinson’s study participants. The clinical trial from which the video data of the people with Parkinson’s was sourced was funded by Parkinson’s UK (Grant J-1102), with support from Cure Parkinson’s. Portions of the research here uses the Toronto NeuroFace Dataset collected by Dr. Yana Yunusova and the Vocal Tract Visualization and Bulbar Function Lab teams at UHN-Toronto Rehabilitation Institute and Sunnybrook Research Institute respectively, financially supported by the Michael J. Fox Foundation, NIH-NIDCD, Natural Sciences and Engineering Research Council, Heart and Stroke Foundation Canadian Partnership for Stroke Recovery and AGE-WELL NCE.
 
 
 
