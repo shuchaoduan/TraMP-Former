@@ -3,8 +3,8 @@ This is the PyTorch implementation for: Trajectory-guided Motion Perception for 
 [arXiv version](https://arxiv.org/abs/2504.09530)
 
 
-
 We introduce Trajectory-guided Motion Perception Transformer (TraMP-Former), a novel FEQA framework that fuses landmark trajectory features for fine-grained motion capture with visual semantic cues from RGB frames, ultimately regressing the combined features into a quality score.
+![pipeline](imgs/pipeline.png)
 
 
 ## Get Started
@@ -15,9 +15,24 @@ We introduce Trajectory-guided Motion Perception Transformer (TraMP-Former), a n
 
 2: [Toronto NeuroFace dataset](https://slp.utoronto.ca/faculty/yana-yunusova/speech-production-lab/datasets/). 
 
+### Training and Testing on PFED5
+run ```python main_PFED5.py --batch_size 4 --epoch 100```
+
+### Pretrained Weights
+Download pretrained weights (RGB encoder and trajectory encoder) from [Google Drive](https://drive.google.com/drive/folders/1BM9wnYs2_n8Y57Nb5RCSzHeV9weR9MVN?usp=sharing). Put the files under `models/pretrained_weights` folder.
+
+	```
+	- models/pretrained_weights/
+		 FormerDFER_DFEW.pth
+		 SkateFormer_256_rgb1x1.pth
+	```
+ 
  ### Evaluation Results
- Comparative Spearman's Rank Correlation results of QAFE-Net with SOTA AQA methods on PFED5
-![results_pd](resources/pd_results.png)
+Results on PFED5
+![results_pfed5](imgs/Results_PFED5.jpg)
+
+Results on augmented Toronto NeuroFace
+![results_toronto](imgs/Results_Toronto.jpg)
 
 ## Citations
 If you find our work useful in your research, please consider giving it a star ⭐ and citing our paper in your work:
