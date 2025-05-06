@@ -16,7 +16,7 @@ We introduce Trajectory-guided Motion Perception Transformer (TraMP-Former), a n
 2: [Toronto NeuroFace dataset](https://slp.utoronto.ca/faculty/yana-yunusova/speech-production-lab/datasets/). 
 
 ### Training and Testing on PFED5
-run ```python main_PFED5.py --batch_size 4 --epoch 100```
+run ```python main_PFED5.py --class_idx 1 --batch_size 4```
 
 ### Pretrained Weights
 Download pretrained weights (RGB encoder and trajectory encoder) from [Google Drive](https://drive.google.com/drive/folders/1BM9wnYs2_n8Y57Nb5RCSzHeV9weR9MVN?usp=sharing). Put the files under `models/pretrained_weights` folder.
