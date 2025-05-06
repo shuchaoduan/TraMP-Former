@@ -15,6 +15,9 @@ We introduce Trajectory-guided Motion Perception Transformer (TraMP-Former), a n
 
 2: [Toronto NeuroFace dataset](https://slp.utoronto.ca/faculty/yana-yunusova/speech-production-lab/datasets/). 
 
+ ### Evaluation Results
+ Comparative Spearman's Rank Correlation results of QAFE-Net with SOTA AQA methods on PFED5
+![results_pd](resources/pd_results.png)
 
 ## Citations
 If you find our work useful in your research, please consider giving it a star ⭐ and citing our paper in your work:
