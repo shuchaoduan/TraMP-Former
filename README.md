@@ -2,7 +2,7 @@
 This is the PyTorch implementation for: Trajectory-guided Motion Perception for Facial Expression Quality Assessment in Neurological Disorders
 [arXiv version](https://arxiv.org/abs/2504.09530)
 
-Code will be updated soon...
+
 
 We introduce Trajectory-guided Motion Perception Transformer (TraMP-Former), a novel FEQA framework that fuses landmark trajectory features for fine-grained motion capture with visual semantic cues from RGB frames, ultimately regressing the combined features into a quality score.
 
