@@ -1,0 +1,38 @@
+data_root: '/./NeuroFace/Crops_cleaned'
+landmarks_root: './NeuroFace/Crops_landmarks'
+rgb1x1_root: './NeuroFace/Crops_RGB_1x1_fromLK'
+benchmark: 'NeuroFace'
+config_name: 'RGB_SkateFormer_256_DFEW_rgb1x1_NeuroFace' #
+
+#----------dataloader parameters-----------
+
+workers: 0
+k: 2
+traj_norm: False
+
+#----------feature extractor---------------
+backbone: 'SkateFormer_DFEW_rgb1x1'
+
+h_dim: 256
+s_depth: 4
+t_depth: 4
+dropout: 0.1
+mask_pad: False #
+
+#----------loss parapmeters----------------
+
+noise_sigma: 1.0 # BMC
+
+#----------training parameters--------------
+epochs: 100
+base_lr: 0.0001
+decay_step: 10
+decay_gamma: 0.5
+p: 20
+warmup_epochs: 5
+optimizer: 'Adam'
+# Adam
+weight_decay: 0.0005
+# SGD
+momentum: 0.9
+nesterov: False
