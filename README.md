@@ -18,7 +18,7 @@ You can download the corresponding [trajectory data](https://drive.google.com/fi
 
 2: [Toronto NeuroFace dataset](https://slp.utoronto.ca/faculty/yana-yunusova/speech-production-lab/datasets/). 
 
-For the augmented version of this dataset, the list of start and end frame indices used for splitting is available in the file: `data/Toronto_NeuroFace_split.csv` file. 
+For the augmented version of this dataset, the list of start and end frame indices used for splitting is available in `data/Toronto_NeuroFace_split.csv`. 
 
 ### Training and Testing on PFED5
 run ```python main_rgb1x1_128.py --class_idx 1 --batch_size 4```
