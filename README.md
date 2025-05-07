@@ -12,10 +12,13 @@ We introduce Trajectory-guided Motion Perception Transformer (TraMP-Former), a n
 ### Data Download
 
 1: [PFED5 dataset](https://github.com/shuchaoduan/QAFE-Net)
-Please use the above link to access the video frames of PFED5, but you can download the [trajectory data](https://drive.google.com/file/d/1Hw_Bkf2yzGbvGobtb2Rr8NkjyfvueHLF/view?usp=sharing) here.
+
+Use the above link to access the video frames of the PFED5 dataset.
+You can download the corresponding [trajectory data](https://drive.google.com/file/d/1Hw_Bkf2yzGbvGobtb2Rr8NkjyfvueHLF/view?usp=sharing) separately from the provided source.
 
 2: [Toronto NeuroFace dataset](https://slp.utoronto.ca/faculty/yana-yunusova/speech-production-lab/datasets/). 
-The list of start and end frame index to split for the augmented version is provided in `data/Toronto_NeuroFace_split.csv` file. 
+
+For the augmented version of this dataset, the list of start and end frame indices used for splitting is available in the file: `data/Toronto_NeuroFace_split.csv` file. 
 
 ### Training and Testing on PFED5
 run ```python main_rgb1x1_128.py --class_idx 1 --batch_size 4```
@@ -40,13 +43,12 @@ Results on augmented Toronto NeuroFace
 If you find our work useful in your research, please consider giving it a star ⭐ and citing our paper in your work:
 
 ```
-@misc{tramp-former,
-      title={Trajectory-guided Motion Perception for Facial Expression Quality Assessment in Neurological Disorders}, 
-      author={Shuchao Duan and Amirhossein Dadashzadeh and Alan Whone and Majid Mirmehdi},
-      year={2025},
-      eprint={2504.09530},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
+@inproceedings{tramp-former,
+  title={Trajectory-guided Motion Perception for Facial Expression Quality Assessment in Neurological Disorders},
+  author={Shuchao Duan and Amirhossein Dadashzadeh and Alan Whone and Majid Mirmehdi},
+  booktitle={2025 19th IEEE international conference on automatic face and gesture recognition (FG)},
+  year={2025},
+  organization={IEEE}
 }
 
 ```
