@@ -12,8 +12,10 @@ We introduce Trajectory-guided Motion Perception Transformer (TraMP-Former), a n
 ### Data Download
 
 1: [PFED5 dataset](https://github.com/shuchaoduan/QAFE-Net)
+Please use the above link to access the video frames of PFED5, but you can download the [trajectory data](https://drive.google.com/file/d/1Hw_Bkf2yzGbvGobtb2Rr8NkjyfvueHLF/view?usp=sharing) here.
 
 2: [Toronto NeuroFace dataset](https://slp.utoronto.ca/faculty/yana-yunusova/speech-production-lab/datasets/). 
+The list of start and end frame index to split for the augmented version is provided in `data/Toronto_NeuroFace_split.csv` file. 
 
 ### Training and Testing on PFED5
 run ```python main_rgb1x1_128.py --class_idx 1 --batch_size 4```
