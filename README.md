@@ -43,14 +43,13 @@ Results on augmented Toronto NeuroFace
 If you find our work useful in your research, please consider giving it a star ⭐ and citing our paper in your work:
 
 ```
-@inproceedings{tramp-former,
+@INPROCEEDINGS{tramp-former,
   title={Trajectory-guided Motion Perception for Facial Expression Quality Assessment in Neurological Disorders},
   author={Shuchao Duan and Amirhossein Dadashzadeh and Alan Whone and Majid Mirmehdi},
-  booktitle={2025 19th IEEE international conference on automatic face and gesture recognition (FG)},
+  booktitle={2025 IEEE 19th International Conference on Automatic Face and Gesture Recognition (FG)},
   year={2025},
-  organization={IEEE}
+  doi={10.1109/FG61629.2025.11099263}
 }
-
 ```
 
 ## Acknowledgement
